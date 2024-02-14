@@ -61,6 +61,9 @@ a {
   .topNavBar{
     display: none;
   }
+  .date{
+    display: none;
+  }
 }
 
 .topNavBar {
@@ -361,6 +364,7 @@ ul.navBar li a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .skill-container .skill-list{
