@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../../assets/AlfredsResumee.pdf'
 
 const Experience = () => {
     return (
@@ -24,19 +25,28 @@ const Experience = () => {
                         <div className='status-description'>
                             <div className="status-des-text">
                                 <h4>-</h4>
-                                <h4>Helped in the optimaztion of the web application for performance</h4>
+                                <h4>Identified and optimized web application performance which improved the user experience and  web application speed.</h4>
                             </div>
                             <div className="status-des-text">
                                 <h4>-</h4>
-                                <h4>Built the official website from scratch with the webflow tool</h4>
+                                <h4>I Built the official website from scratch with the webflow tool</h4>
                             </div>
                             <div className="status-des-text">
                                 <h4>-</h4>
-                                <h4>Joined with the team of developers to update the API call from the backend server</h4>
+                                <h4>Leveraged Redux and axios to fetch API data and dynamically update website content, resulting in a 50% increase in user engagement</h4>
                             </div>
                             <div className="status-des-text">
                                 <h4>-</h4>
-                                <h4>Wrote and Updated Unit-testing for the components</h4>
+                                <h4>Updated Unit-testing for the components</h4>
+                            </div>
+                            <div className="status-des-text">
+                                <h4>-</h4>
+                                <h4>Proactively identified strategic areas of opportunity and high business impact for team and product improvements.</h4>
+                            </div>
+                            <div className="status-des-text">
+                                <h4>-</h4>
+                                <h4>Mentored other interns by conducting technical workshops and knowledge-sharing sessions, leading to team skill development and career advancement.
+                                </h4>
                             </div>
 
                         </div>
@@ -58,7 +68,7 @@ const Experience = () => {
                         <div className='status-description'>
                             <div className="status-des-text">
                                 <h4>-</h4>
-                                <h4>Implemented the Languages option feature, so users of the marketplace could be well guided when navigating the user-interface.</h4>
+                                <h4>Implemented the Languages option feature, so users of the marketplace could be well guided when navigating the user-interface which increased the number of users to 20% of the initial recorded.</h4>
                             </div>
                             <div className="status-des-text">
                                 <h4>-</h4>
@@ -99,11 +109,11 @@ const Experience = () => {
                         <div className='status-description'>
                             <div className="status-des-text">
                                 <h4>-</h4>
-                                <h4>Joined with a team of 7 developers to build web applications for clients</h4>
+                                <h4>Proactively completed projects for several clients which increased the company’s revenue by 5%</h4>
                             </div>
                             <div className="status-des-text">
                                 <h4>-</h4>
-                                <h4>Increased my knowledge in understanding how react renders components</h4>
+                                <h4>Engaged in coding sessions and understanding more on how to work with git, github and react applications.</h4>
                             </div>
                         </div>
                     </div>
@@ -164,7 +174,7 @@ const Experience = () => {
                 <div className="underline center"></div>
 
                 <div className="resume">
-                    <a href="" className='btn'>Download Resume</a>
+                    <a href={resume} className='btn'>Download Resume</a>
                 </div>
             </div>
         </section>
