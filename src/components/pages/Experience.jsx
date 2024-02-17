@@ -166,9 +166,7 @@ const Experience = () => {
                     </div>
                     <div className='skill-list'>
                         <h4 className='link'>Knowledge</h4>
-                        <p>Object Oriented Programming</p>
                         <p>Operating System</p>
-                        <p>Mobile App Development</p>
                     </div>
                 </div>
                 <div className="underline center"></div>
