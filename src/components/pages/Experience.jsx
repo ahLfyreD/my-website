@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../../assets/AlfredAnnieResume.pdf'
+import resume from '../../assets/Alfred_AnnieResume.pdf'
 
 const Experience = () => {
     return (
@@ -151,13 +151,18 @@ const Experience = () => {
                         <h4 className='link'>Languages</h4>
                         <p>Javascript</p>
                         <p>Typescript</p>
+                        <p>CSS</p>
+                        <p>HTML</p>
                     </div>
                     <div className='skill-list'>
                         <h4 className='link'>Web Libraries/Databases</h4>
                         <p>Bootstrap</p>
                         <p>Tailwind</p>
-                        <p>React</p>
+                        <p>ReactJS</p>
+                        <p>Redux</p>
                         <p>MongoDb</p>
+                        <p>Webflow</p>
+                        <p>WordPress</p>
                     </div>
                     <div className='skill-list'>
                         <h4 className='link'>Tools</h4>
@@ -165,14 +170,15 @@ const Experience = () => {
                         <p>VS Code</p>
                     </div>
                     <div className='skill-list'>
-                        <h4 className='link'>Knowledge</h4>
-                        <p>Operating System</p>
+                        <h4 className='link'>Operating System</h4>
+                        <p>Windows</p>
+                        <p>MacOS</p>
                     </div>
                 </div>
                 <div className="underline center"></div>
 
                 <div className="resume">
-                    <a href={resume} className='btn'>Download Resume</a>
+                    <a href={resume} target='_blank' className='btn'>Download Resume</a>
                 </div>
             </div>
         </section>
